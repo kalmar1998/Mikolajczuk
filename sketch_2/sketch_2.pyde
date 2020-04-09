@@ -1,19 +1,9 @@
-global side
-r = 50    
-
-global x
-xpos = 0 
-
-global y
-y = 0 
-
-global x1
-x1 = 1
-
-global y1
-y1 = 1
-
 def setup():
+    global x1, y1, r
+    r = 50
+    x1 = 1
+    y1 = 1
+
     global x, y
     size(640, 360)
     frameRate(120)
@@ -41,3 +31,4 @@ def draw():
 
 def mousePressed():
     exit()
+# 2pkt

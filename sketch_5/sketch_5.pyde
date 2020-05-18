@@ -11,7 +11,7 @@ class Kwadrat():
 class Kolo():
     def __init__(self, n1, o):
         self.name1 = n1
-        self.obiekt = o
+        self.obiekt = o # trochę na siłę ten atrybut...
     
     def rysuj_kolo(self):
         circle(100, 100, 100)
@@ -24,11 +24,11 @@ def setup():
     kolo = Kolo("koło", kwadrat)
     
 def draw():
-    kolo.obiekt.rysuj_kwadrat()
+    kolo.obiekt.rysuj_kwadrat() # niezłe zagnieżdżenie, kwadratura koła x) więcej zamieszania niż praktyczności
     kolo.rysuj_kolo()
     kolo.obiekt.nazwa_figury()
   
 def mousePressed():
     exit()
 
-   
+# 1,75p

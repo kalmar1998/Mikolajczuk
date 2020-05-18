@@ -40,23 +40,23 @@ def setup():
     global img
     size(492, 633)
     img = loadImage("zdjecie.jpg")
+    image(img, 0,0,width, height) # dzięki temu obraz załąduje też na wejściu w program i widzimy na czym działamy
 
 def draw():
     global img
     
     if keyPressed:
+        beginRecord(PDF, "out.pdf") # tak będzie zgrabniej :)
+        image(img, 0,0,width, height)
         if key=='1':
-            beginRecord(PDF, "out.pdf")
-            image(img, 0,0,width, height)
             wasy()
-            endRecord()
         elif key=='2':
-            beginRecord(PDF, "out.pdf")
-            image(img, 0,0,width, height)
             wasy()
             okulary()
-            endRecord()
+        endRecord()
 
                 
 def mousePressed():
     exit()
+    
+# 2pkt

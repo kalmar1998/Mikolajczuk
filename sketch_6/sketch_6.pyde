@@ -7,7 +7,7 @@ class Kwadrat(object):
         rect(self.x, self.y, self.bok, self.bok)
 class KolorowyKwadrat(Kwadrat):
     def __init__(self,bok): 
-        super(KolorowyKwadrat,self).__init__(bok)
+        super(KolorowyKwadrat,self).__init__(bok) # celowo nie wprowadzałam, żeby nie robić większego zamieszania, ale miło, że się dokształciłeś :)
         
     def sketchKolorowy(self, x, y):
         
@@ -30,3 +30,5 @@ def setup():
     kolorowy_kwadrat_z_kolorowa_krawedzia.koloruj(60,210,35)
     kolorowy_kwadrat_z_kolorowa_krawedzia.koloruj_krawedz(0,227,255)
     kolorowy_kwadrat_z_kolorowa_krawedzia.sketchKolorowy(200, 200)
+    
+# 2pkt

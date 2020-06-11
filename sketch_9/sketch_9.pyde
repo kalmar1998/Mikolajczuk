@@ -39,18 +39,16 @@ def setup():
     try: 
         kaczka.obrazek(x)
         kaczka.ramka_fill(15, 41, 255)
-        text("obrazek wyswietlil sie prawidlowo", width - 450, height -10)
+        text("obrazek wyswietla sie prawidlowo", width - 450, height -10)
     
     except:
-        
         kaczka.ramka_fill(255, 0, 4)
         text("nazwa obrazka jest nieprawidlowa \n lub obrazka nie ma w folderze", width - 430, height -27)
         kaczka.ramka(45, 45, 510)
         kaczka.ramka_fill(255, 255, 255)
         kaczka.kwadrat(65, 65, 470)
         
-    else:
-        
+    else:   
         kaczka.ramka(45, 45, 510)
         kaczka.obrazek(x)
         text("obrazek wyswietlil sie prawidlowo", width - 450, height -10)

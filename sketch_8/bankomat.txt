@@ -1,0 +1,17 @@
+class Bankomat()
+
+	jezyk_obslugi
+
+	wplac()
+	wyplac()
+	
+
+class Klient()
+
+	nr_rachunku
+	stan_konta
+
+	pobierz_srodki()
+	wplac_srodki()
+	sprawdz_stan_konta()
+	przerwij_transakcje()

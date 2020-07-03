@@ -35,7 +35,7 @@ class Parrot(Pet):
     def obrazek(self):
         image(loadImage("parrot.jpg"),  0, 0, width, height)
     
-    def __add__(self, other): 
+    def __add__(self, other): # miało być nadpisane odejmowanie ( __sub__)
         return self.name + ' i ' + other.name
         
         
@@ -53,7 +53,6 @@ def setup():
     
     zielonka.obrazek()
 
-
     
 def draw():
     pass
@@ -64,4 +63,6 @@ def mouseClicked():
         
         if isinstance(pet, Dog):
             pet.gimmePaw()
-        
+
+# Rozwiązanie identyczne z tym Karoliny Adamus, włącznie z zakrzyknięciem o chrupki. Minusy do aktywności.
+# 1,25pkt

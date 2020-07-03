@@ -8,7 +8,7 @@ class Kaczka():
         
 
               
-    def ramka(self, v1, v2, v3):
+    def ramka(self, v1, v2, v3): # metoda nic nie wnoci po za zmainą nazwy dla funkcji rect: przekazuje te same argumenty i używa ich w ten sam sposób
         self.v1 = v1
         self.v2 = v2
         self.v3 = v3
@@ -39,7 +39,6 @@ def setup():
     try: 
         kaczka.obrazek(x)
         kaczka.ramka_fill(15, 41, 255)
-        text("obrazek wyswietla sie prawidlowo", width - 450, height -10)
     
     except:
         kaczka.ramka_fill(255, 0, 4)
@@ -52,6 +51,8 @@ def setup():
         kaczka.ramka(45, 45, 510)
         kaczka.obrazek(x)
         text("obrazek wyswietlil sie prawidlowo", width - 450, height -10)
+        
+#1,75pkt
         
     
 

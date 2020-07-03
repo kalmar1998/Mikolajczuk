@@ -1,17 +1,21 @@
 class Bankomat()
 
 	jezyk_obslugi
+	ilość gotówki w bankomacie?
 
 	wplac()
 	wyplac()
 	
 
-class Klient()
+class Klient() # jeden klient może mieć kilka kont, lepsze byłoby konto, czy karta
 
 	nr_rachunku
 	stan_konta
+	PIN?/jakieś uwierzytelnianie?
 
 	pobierz_srodki()
 	wplac_srodki()
 	sprawdz_stan_konta()
 	przerwij_transakcje()
+
+1/1,5pkt

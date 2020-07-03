@@ -113,3 +113,5 @@ def mousePressed():
 def keyPressed():
     if key == '0':
         exit()
+        
+ #stworzyłem taki mały projekt, gdyby Pani oceniła, byłoby mi miło

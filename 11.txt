@@ -1,0 +1,13 @@
+Restauracja oferuje w swoim menu kuchnię azjatycką - min. Chin, Korei i Indii. Jest to
+bardzo dobra restauracja, której zależy na nieposzlakowanej opinii i dużej liczbie
+zadowolonych klientów, więc zatrudnia po jednym kucharzu specjalizującym się w danej
+kuchni. Tak więc jeden kucharz gotuje wszystkie dania tylko kuchni chińskiej z menu, drugi
+kucharz gotuje wszystkie dania tylko kuchni koreańskiej z menu, a trzeci kucharz gotuje
+wszystkie dania tylko kuchni indyjskiej z menu.
+Wzorzec projektowy: FABRYKA ABSTRAKCYJNA
+Dlaczego?: W tym przypadku fabryką jest restauracja, która oferuje w menu dania kuchni
+azjatyckiej, będące produktami fabryki. Klasami pochodnymi fabryki są kucharze, którzy
+gotują tylko dania z jednej rodziny dań, tj. np. dania kuchni chińskiej, dania kuchni
+koreańskiej itd.
+
+Ok, 2pkt
